@@ -1,16 +1,16 @@
 const express = require("express");
 const path = require("path");
 
+const app = express();
 const PORT = process.env.port || 3001;
 
-const app = express();
 // need to create
 const api = require("./routes/index.js");
 
 // Middleware for parsing JSON and urlencoded data
+app.use(express.static("public"));
 app.use(express.json());
 app.use(express.urlencoded({ extensions: true }));
-app.use("/api", api);
 
 app.use(express.static("public"));
 
