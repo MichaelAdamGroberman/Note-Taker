@@ -1,7 +1,6 @@
 // Require Express and Path
 const express = require("express");
 const path = require("path");
-const { v4: uuidv4 } = require("uuid");
 
 // define express app and port to use
 const app = express();
