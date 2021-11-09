@@ -10,7 +10,7 @@ We're using Express to define all of the API method request routes. The applicat
 
 1. [Installation](#installation)
 2. [Usage](#usage)
-3. [Deployed]](#deployed)
+3. [Deployed](#deployed)
 
 ## Installation
 
