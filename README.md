@@ -10,7 +10,7 @@ We're using Express to define all of the API method request routes. The applicat
 
 1. [Installation](#installation)
 2. [Usage](#usage)
-3. [Deployed-App] (#deployed-app)
+3. [Deployed] (#deployed)
 
 ## Installation
 
@@ -26,7 +26,7 @@ We're using Express to define all of the API method request routes. The applicat
 
 - Application will be served and hosted locally at http:localhost:3001
 
-## Deployed App
+## Deployed
 
 (https://damp-bayou-41457.herokuapp.com/)
 ![Deployed App Screenshot 1](./_assets_/DeployedApp_Browser_1.png)
