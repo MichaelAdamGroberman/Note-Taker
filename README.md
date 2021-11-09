@@ -10,7 +10,7 @@ We're using Express to define all of the API method request routes. The applicat
 
 1. [Installation](#installation)
 2. [Usage](#usage)
-3. [Deployed App] (#deployed-app)
+3. [Deployed-App] (#deployed-app)
 
 ## Installation
 
@@ -28,10 +28,9 @@ We're using Express to define all of the API method request routes. The applicat
 
 ## Deployed App
 
+(https://damp-bayou-41457.herokuapp.com/)
 ![Deployed App Screenshot 1](./_assets_/DeployedApp_Browser_1.png)
 ![Deployed App Screenshot 2](./_assets_/DeployedApp_Browser_2.png)
 ![Deployed App Screenshot 3](./_assets_/DeployedApp_Browser_3.png)
-![Deployed App Screenshot 4](./_assets_/DeployedApp_CLI_1.png)
-![Deployed App Screenshot 5](./_assets_/DeployedApp_CLI_2.png)
-
-[Deployed Heroku](https://damp-bayou-41457.herokuapp.com/)
+![Deployed App Screenshot 4](./_assets_/Server_CLI_1.png)
+![Deployed App Screenshot 5](./_assets_/Server_CLI_2.png)
