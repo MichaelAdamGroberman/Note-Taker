@@ -1,7 +1,7 @@
 {
-  "name": "note-taker",
+  "name": "Note-Taker",
   "version": "1.0.0",
-  "description": "",
+  "description": "An application that uses express and node to read, create, and delete notes.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
