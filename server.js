@@ -6,12 +6,12 @@ const path = require("path");
 const app = express();
 const PORT = process.env.PORT || 3001;
 
-const api = require("./routes/index.js");
+const routes = require("./routes/index.js");
 
 // Middleware for parsing JSON and urlencoded data
 app.use(express.json());
 app.use(express.urlencoded({ extensions: true }));
-app.use("/api", api);
+app.use("/api", routes);
 app.use(express.static("public"));
 
 // GET method when user goes to the domain
@@ -22,6 +22,7 @@ app.get("/notes", (req, res) =>
   res.sendFile(path.join(__dirname, "/public/notes.html"))
 );
 // Listen for api requests on defined port and print to the console
+const port = PORT;
 app.listen(PORT, () => {
-  console.log("App running at http://localhost:${PORT}");
+  console.log("${PORT}");
 });
