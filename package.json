@@ -1,5 +1,5 @@
 {
-  "name": "Note Taker",
+  "name": "Note-Taker",
   "version": "1.0.0",
   "description": "An application that uses express and node to read, create, and delete notes.",
   "main": "server.js",
