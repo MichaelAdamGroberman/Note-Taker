@@ -1,6 +1,7 @@
 // Require Express and Path
 const express = require("express");
 const path = require("path");
+const http = require("http");
 
 // define express app and port to use
 const app = express();
