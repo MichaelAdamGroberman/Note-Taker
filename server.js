@@ -22,7 +22,6 @@ app.get("/notes", (req, res) =>
   res.sendFile(path.join(__dirname, "/public/notes.html"))
 );
 // Listen for api requests on defined port and print to the console
-const port = PORT;
-app.listen(PORT, () => {
-  console.log("${PORT}");
+server.listen(8080, () => {
+  console.log("Application listening on" + "server.address()");
 });
